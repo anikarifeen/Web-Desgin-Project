@@ -1,0 +1,284 @@
+.section {
+    padding:30px 0;
+}
+.slides-navigation .prev,
+.slides-navigation .next{
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.slides-navigation a.prev{
+    left: 20px;
+    background-image: url(../img/icons/prev.png);
+
+}
+.slides-navigation a.next{
+    right: 20px;
+    background-image: url(../img/icons/next.png);
+}
+
+
+div.caption {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    top: 40%;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+}
+/*
+.row {
+    padding: 10px;
+}*/
+
+.image img {
+    height: 240px;
+    width: 100%;
+    opacity: 1;
+  transition: 0.5s opacity;
+  
+}
+
+.image img:hover {
+    transform: scale(1.5);
+}
+
+
+.line_1 {
+    width: 200px;
+    margin-top: 10px;
+}
+.line_2 {
+    width: 150px;
+    margin-top: 10px;
+}
+.line_3 {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.line_1, .line_2, .line_3{
+    display: block;
+    height: 1px;
+    background: #dbdbdb;
+    position: relative;
+}
+.about-sec-tag h4 {
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #ed2a28;
+}
+.about-sec-tag ul{
+    margin-bottom: 15px;
+}
+.about-sec-tag ul li {
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    display: inline-block;
+    width: 49%;
+}
+.about-sec-img img{
+    height: 450px;
+    width: 450px;
+}
+.about-sec-tag .founder-text {
+    padding-left: 40px;
+    position: relative;
+    border-left: 2px solid #ddd;
+    padding-top: 32px;
+    padding-bottom: 0px;
+}
+.about-sec-tag .founder-text::before {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-family: fantasy;
+    content: "\f10d";
+    color: #f0f0f0;
+    font-size: 22px;
+}
+
+/*teaam*/
+.padding {
+    padding: 80px 0;
+}
+.bg_light {
+    background: #edf3f8;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.col-sm-10 {
+    width: 83.33333333%;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 26px;
+}
+
+h2, h3, h4 {
+    font-weight: 600;
+    margin: 0;
+}
+.line_1, .line_2, .line_3, .line_1-1, .line_2-2, .line_3-3 {
+    display: block;
+    height: 2px;
+    background: darkslateblue;
+    position: relative;
+}
+#team-sev .team-box {
+    border: 1px solid #dadada;
+    padding: 30px 45px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 35px;
+    background: #fff;
+}
+.team-box img {
+    width: 100%;
+    height: 190px;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+#team-sev .team-box h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 20px 0 0;
+    color: #222;
+    text-transform: uppercase;
+}
+#team-sev .team-box p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: normal;
+    margin: 0;
+}
+#team-sev .team-box ul {
+    position: relative;
+    z-index: 2;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#team-sev .team-box ul li {
+    margin: 0 3px;
+    font-size: 18px;
+    color: #dadada;
+    display: inline-block;
+}
+#team-sev .team-box ul li a {
+    color: #ed2a28;
+}
+
+
+#team-sev .team-box .team-box-overlay {
+    background: #ed2a28;
+}
+
+#team-sev .team-box .team-box-overlay {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    height: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#team-sev .team-box {
+    border: 1px solid #dadada;
+    padding: 30px 45px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 35px;
+    background: #fff;
+}
+.col-sm-3 {
+    width: 25%;
+}
+.text-center {
+    text-align: center;
+}
+.contactButton{
+    border:1px solid black;padding: 10px 20px;
+    color: #fff;display: inline-block;margin-top: 20px;
+}
+.contactButton:hover{
+    background: #000; color: red;text-decoration: none;
+}
+#navigation{
+    background-color: black;
+}
+#navigation li a{
+    color: springgreen;
+}
+.navbar-brand,.navbar-brand:hover{
+    color: black;
+}
+.navbar-toggler-icon{
+    background: url(../img/icons/menu.png);
+    background-size: cover;
+}
+#counter-section{
+    background-color: aqua;
+}
+.section{
+    padding: 70px 0;
+}
+.skillsSection {
+    background: deepskyblue;color: #fff;
+}
+.contactSection{
+    background: mediumpurple; 
+}
+.skill{
+    text-align: center;margin-left: 10px;
+}
+.chart{
+    position: relative;height: 152px;width: 152px;
+    display: inline-block;
+}
+canvas{
+    position: absolute;left: 0;top: 0;
+}
+.percent{
+    font-size: 35px; color: #000;line-height: 152px;
+    text-align: center;
+}
+.percent:after{
+    content: '%';
+}
+#abc{
+    color: black;
+    padding: auto;
+}
+#def{
+    color: greenyellow;
+}
+
+
+.footerSection{
+    background: #000;color: #fff;padding: 30px;
+}
